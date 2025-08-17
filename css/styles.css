@@ -133,7 +133,7 @@ body {
   height: 16.875rem;
   vertical-align: middle;
   text-align: center; 
-  padding: 0 3rem;
+  padding: 1.5rem 3rem;
   background-color: var(--color-primary);
   color: var(--color-secondary);
   font-size: 42px;
@@ -192,3 +192,197 @@ body {
   gap: 0.5rem;
 }
 
+@media (max-width: 1350px){
+  .menu{
+    padding: 0 5rem;
+  }
+  
+  .header-main{
+    font-size: 20px;
+  }
+
+  .description-image h3{
+    font-size: 32px;
+  }
+  
+  .description-image p{
+    font-size: 32px;
+  }
+
+  .section-type-1-right h2{
+    font-size: 50px;
+  }
+
+  .section-type-2-left h2{
+    font-size: 50px;
+  }
+
+  .section-type-1-right a{
+    height: 6.5rem;
+    width: 25rem;
+    font-size: 40px;
+    gap: 1.5rem;
+  }
+
+  .section-type-1-right a img{
+    height: 80%;
+    width: auto;
+  }
+
+  .section-type-2-left a{
+    height: 6.5rem;
+    width: 25rem;
+    font-size: 40px;
+    gap: 1.5rem;
+  }
+
+  .section-type-2-left a img{
+    height: 80%;
+    width: auto;
+  }
+
+  .footer{
+    height: 7rem;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px){
+
+  .logo{
+    height: 7rem;
+  }
+
+  .logo img{
+    height: 350px;
+    width: auto;
+  }
+
+  .menu{
+    height: 6rem;
+    padding: 0 2rem;
+    font-size: 24px;
+  }
+
+  .header-main{
+    font-size: 16px;
+  }
+
+  .description-image h3{
+    font-size: 24px;
+  }
+
+  .description-image p{
+    font-size: 20px;
+    height: 12rem;
+    padding: 1rem;
+  }
+
+  .section-type-1-right h2{
+    font-size: 40px;
+  }
+
+  .section-type-2-left h2{
+    font-size: 40px;
+  }
+
+  .section-type-1-right a{
+    height: 5rem;
+    width: 20rem;
+    font-size: 30px;
+    gap: 1rem;
+  }
+
+  .section-type-1-right a img{
+    height: 60%;
+    width: auto;
+  }
+
+  .section-type-2-left a{
+    height: 5rem;
+    width: 20rem;
+    font-size: 30px;
+    gap: 1rem;
+  }
+
+  .section-type-2-left a img{
+    height: 60%;
+    width: auto;
+  }
+
+  .footer{
+    height: 6rem;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px){
+
+  .logo{
+    height: 6rem;
+  }
+
+  .logo img{
+    height: 300px;
+    width: auto;
+  }
+
+  .menu{
+    height: 5rem;
+    padding: 0 2rem;
+    font-size: 22px;
+  }
+
+  .header-main{
+    font-size: 13px;
+  }
+
+  .description-image h3{
+    font-size: 18px;
+    padding: 1rem;
+  }
+
+  .description-image p{
+    font-size: 18px;
+    height: 10rem;
+    padding: 1rem;
+  }
+
+  .section-type-1-right h2{
+    font-size: 35px;
+  }
+
+  .section-type-2-left h2{
+    font-size: 35px;
+  }
+
+  .section-type-1-right a{
+    height: 4rem;
+    width: 16rem;
+    font-size: 24px;
+    gap: 1rem;
+  }
+
+  .section-type-1-right a img{
+    height: 50%;
+    width: auto;
+  }
+
+  .section-type-2-left a{
+    height: 4rem;
+    width: 16rem;
+    font-size: 24px;
+    gap: 1rem;
+  }
+
+  .section-type-2-left a img{
+    height: 50%;
+    width: auto;
+  }
+
+  .footer{
+    height: 5rem;
+    font-size: 16px;
+    gap:0.25rem;
+  }
+}
