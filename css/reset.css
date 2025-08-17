@@ -1,0 +1,48 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Quitar decoraciones predeterminadas */
+html, body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #fafafa;
+  color: #333;
+  -webkit-font-smoothing: antialiased; /* mejor renderizado */
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Botones */
+button {
+  border: none;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* Imágenes */
+img {
+  max-width: 100%;
+  display: block;
+}
